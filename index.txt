@@ -5,7 +5,7 @@
 For the developing Data Products course project I have created a Shiny Application which will predict diamond price on the basis of chosen parameters. Diamond dataset which I have collected from the website http://www.pricescope.com/. Diamond price determined by several factors, such as carat, Clarity, Cut etc. In my dataset I have choosen 6 predictors - Shape, Carat,Cut, Color, Clarity, Depth.
 
 ## Data Preparation
-Read the dataset [Diamond_price.csv](https://github.com/user/DataProducts) which is in the current directory.
+Read the dataset [Diamond_price.csv](https://github.com/Kazishadidraiyan/Course-Project-Shiny-Application-and-Reproducible-Pitch) which is in the current directory.
 
 ```r
 data <- read.csv("Diamond_price.csv", header=TRUE)
@@ -61,8 +61,8 @@ ggplot(aes(x=actual, y=prediction),data=data.frame(actual=testdata$Price, predic
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
 
-The shiny appication I developed has been published in shiny server at [https://user.shinyapps.io/DataProducts](https://user.shinyapps.io/DataProducts).     
-To reproduce the shiny application on your local system, you need to install the relevent packages (caret and randomForest) and download diamond dataset, server.R and ui.R from github [repository](https://github.com/anupb08/DataProducts).     
+The shiny appication I developed has been published in shiny server at [https://vqdyap-kazi0shadid-raiyan.shinyapps.io/Shiny_Application](https://vqdyap-kazi0shadid-raiyan.shinyapps.io/Shiny_Application).     
+To reproduce the shiny application on your local system, you need to install the relevent packages (caret and randomForest) and download diamond dataset, server.R and ui.R from github [repository](https://github.com/Kazishadidraiyan/Course-Project-Shiny-Application-and-Reproducible-Pitch).     
 
 ## How to Run the Application
 After downloading the above mentioned files you have to keep all the files in a folder and run **runApp()** function. Instantly application will be open locally in default browser. In the html page you will see at left side there are severel input parameters you have to select by drop down or by increasing/decreasing the values. After selection you have to press the Submit button, the diamond price will be shown at right side.   
