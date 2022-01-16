@@ -61,7 +61,7 @@ ggplot(aes(x=actual, y=prediction),data=data.frame(actual=testdata$Price, predic
 
 ![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2-1.png) 
 
-The shiny appication I developed has been published in shiny server at [https://vqdyap-kazi0shadid-raiyan.shinyapps.io/Shiny_Application](https://vqdyap-kazi0shadid-raiyan.shinyapps.io/Shiny_Application).     
+The shiny appication I developed has been published in shiny server at [https://vqdyap-kazi0shadid-raiyan.shinyapps.io/shiny_application](https://vqdyap-kazi0shadid-raiyan.shinyapps.io/shiny_application).     
 To reproduce the shiny application on your local system, you need to install the relevent packages (caret and randomForest) and download diamond dataset, server.R and ui.R from github [repository](https://github.com/Kazishadidraiyan/Course-Project-Shiny-Application-and-Reproducible-Pitch).     
 
 ## How to Run the Application
