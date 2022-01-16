@@ -2,6 +2,6 @@
 
 ## Developing Data Products Course Project-  Shiny Application and Reproducible Pitch Presentation
 
-1. The documentation of the application can be found at (https://kazishadidraiyan.github.io/Course-Project-Shiny-Application-and-Reproducible-Pitch/)
-2. The  Shiny application can found at (https://vqdyap-kazi0shadid-raiyan.shinyapps.io/shiny_application)
-3. The Pitch Presentation can found at (https://rpubs.com/kazishadidraiyan/855961)
+1. The documentation of the application can be found at [Documentation] (https://kazishadidraiyan.github.io/Course-Project-Shiny-Application-and-Reproducible-Pitch/)
+2. The  Shiny application can found at [App] (https://vqdyap-kazi0shadid-raiyan.shinyapps.io/shiny_application)
+3. The Pitch Presentation can found at [Presentation] (https://rpubs.com/kazishadidraiyan/855961)
