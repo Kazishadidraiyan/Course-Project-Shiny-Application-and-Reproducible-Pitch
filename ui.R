@@ -11,7 +11,7 @@ shinyUI(pageWithSidebar(
       submitButton('Submit'),
       br(),
                 p(strong(em("Documentation:",a("Diamond price",href="index.html")))),
-                p(strong(em("Github repository:",a("Diamond price",href="http://anupb08.github.io/DataProducts/"))))
+                p(strong(em("Github repository:",a("Diamond price",href="https://github.com/Kazishadidraiyan/Course-Project-Shiny-Application-and-Reproducible-Pitch"))))
            
       ),
    mainPanel(
